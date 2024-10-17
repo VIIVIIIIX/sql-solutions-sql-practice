@@ -1,0 +1,5 @@
+SELECT CONTACT_NAME,
+       ADDRESS,
+       CITY
+FROM CUSTOMERS
+WHERE COUNTRY NOT IN ("Germany", "Mexico", "Spain")
